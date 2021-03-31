@@ -2,12 +2,13 @@ import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
 import {Box, Button, FormControl, IconButton, TextField} from '@material-ui/core';
 import {AddBox} from '@material-ui/icons';
 
-export type AddItemFormPropsType = {
+type AddItemFormPropsType = {
     addItem: (title: string) => void
 }
 
-export const AddItemForm = React.memo( (props: AddItemFormPropsType) => {
-    console.log("AddItemForm is called")
+export const AddItemForm = React.memo(function(props: AddItemFormPropsType) {
+    console.log("AddItemForm called")
+
     let [title, setTitle] = useState("")
     let [error, setError] = useState<string | null>(null)
 
@@ -46,4 +47,4 @@ export const AddItemForm = React.memo( (props: AddItemFormPropsType) => {
             <AddBox />
         </IconButton>
     </div>
-} );
+})
