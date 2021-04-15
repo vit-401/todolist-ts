@@ -62,13 +62,13 @@ const Login = (props: any) => {
                         <p>or use common test account credentials:</p>
                         <p>Email: free@samuraijs.com</p>
                         <p>Password: free</p>
-                        <div>IsAuth: {isLoggedIn + ''}</div>
                     </FormLabel>
                     <FormGroup>
                         <TextField
                             label="Email"
                             margin="normal"
                             type="email"
+                            {...formik.getFieldProps('email')}
                         />
                         {
                             formik.touched.email &&
