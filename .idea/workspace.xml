@@ -4,15 +4,8 @@
     <list default="true" id="083e9bac-5209-44d0-ac9e-b61a47564d69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Login/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +33,24 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\screen\Desktop\todolist-ts\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\screen\Desktop\todolist-16\todolist-16\src\app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -60,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -75,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617973115826</updated>
       <workItem from="1617973121682" duration="12287000" />
-      <workItem from="1618493999163" duration="3552000" />
+      <workItem from="1618493999163" duration="3754000" />
+      <workItem from="1618498270095" duration="1539000" />
     </task>
     <servers />
   </component>
@@ -83,22 +88,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1618498010322">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1618499926693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618498010322" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1618498010322">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618499926693" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1618499926693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618498010322" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1618498010322">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618499926693" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1618499926693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618498010322" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1618498010322">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618499926693" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1618499926693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618498010322" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1618499926693" />
     <state x="479" y="131" width="577" height="562" key="find.popup" timestamp="1618497783192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
